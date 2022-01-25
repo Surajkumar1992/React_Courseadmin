@@ -2,8 +2,9 @@ import { combineReducers } from "redux";
 import courses from './courseReducer';
 
 function rootReducer() { 
-    combineReducers(
-        { courses }
-)}
+    combineReducers({ 
+        courses
+     })
+}
 
 export default rootReducer;
