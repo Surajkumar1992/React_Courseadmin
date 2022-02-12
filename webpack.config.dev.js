@@ -1,7 +1,6 @@
 const webpack = require("webpack");
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { web } = require("webpack");
 
 process.env.NODE_ENV = "development";
 
